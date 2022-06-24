@@ -148,7 +148,7 @@ class Game {
         //use data form the database to display the cars in x and y direction
         var x = allPlayers[plr].positionX;
         var y = height - allPlayers[plr].positionY;
-        var currentLife= allPlayer[plr].life
+        var currentLife= allPlayers[plr].life
 
         if(currentLife <=0 ){
           cars[index-1].changeImage("blast");
